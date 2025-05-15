@@ -1,0 +1,280 @@
+header {
+    background-color: ghostwhite;
+}
+
+.search {
+    height: 20px;
+    width: 20px;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.bottom {
+    background-color: #e9ecef;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.nav-item a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: url('../img/kuetscher (275).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-banner {
+    padding: 150px 0 50px 0;
+    color: white;
+}
+
+.content-banner p {
+    padding-top: 20px;
+    max-width: 800px;
+}
+
+.main {
+    background-color: ghostwhite
+}
+
+.col-8 {
+    margin-left: -12px;
+}
+
+.card {
+    background-color: white;
+    width: 48%;
+    line-height: 5px;
+    overflow: hidden;
+}
+
+.marking {
+    color: white;
+    position: absolute;
+    padding: 16px 0 0 22px;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 120px;
+    background-color: dimgray;
+}
+
+.card-img, .card-content {
+    padding: 10px;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-content {
+    background-color: #e9ecef;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.card-content p {
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.card-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-button:hover {
+    background-color: yellow;
+    cursor: pointer;
+    color: black;
+}
+
+.main-bottom {
+    width: 100%;
+}
+
+.number-card {
+    color: darkgrey;
+}
+
+.number-links {
+    width: 300px;
+    list-style: none;
+}
+
+.number-links li a {
+    text-decoration: none;
+}
+
+.previous a {
+    color: darkgrey;
+}
+
+.numberOne a {
+    color: orange;
+}
+
+.numberOne a:hover {
+    color: yellow;
+}
+
+.numberOne a:active {
+    color: yellow;
+}
+
+.number a {
+    color: black;
+}
+
+.number a:hover {
+    color: yellow;
+}
+
+.next a {
+    color: black;
+}
+
+.next a:hover {
+    color: yellow;
+}
+.facebook {
+    position: relative;
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #13599a;
+    text-align: right;
+    padding-right: 20px;
+}
+.facebook:before {
+    content: "";
+    background-image: url('../img/facebook.svg');
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    background-size: cover;
+    left: -5px;
+    bottom: -5px;
+}
+.facebook:hover {
+    background-color: yellow;
+    color: black;
+}
+.twitter {
+    position: relative;
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #01a9f4;
+    text-align: right;
+    padding-right: 20px;
+}
+.twitter:before {
+    content: "";
+    background-image: url('../img/twitter.svg');
+    width: 40px;
+    height: 47px;
+    position: absolute;
+    background-size: cover;
+    left: -6px;
+    bottom: -6px;
+}
+.twitter:hover {
+    background-color: yellow;
+    color: black;
+}
+.google {
+    position: relative;
+    width: 25%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e2574b;
+    text-align: right;
+    padding-right: 20px;
+}
+.google:before {
+    content: "";
+    background-image: url('../img/google-plus.png');
+    width: 40px;
+    height: 37px;
+    position: absolute;
+    background-size: cover;
+    left: -2px;
+    bottom: 0;
+    border: none;
+}
+.google:hover {
+     background-color: yellow;
+     color: black;
+ }
+.col-4 {
+    margin-right: -36px;
+}
+.news {
+    line-height: 5px;
+    background-color: #e9ecef;
+}
+.news a {
+    line-height: normal;
+    text-decoration: none;
+    color: black;
+}
+.news a:hover {
+    color: yellow;
+}
+.news p {
+    line-height: normal;
+}
+.footer {
+    background-color: ghostwhite;
+}
+.col {
+    color: #e9ecef;
+}
+.right ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+.right ul li a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.right li:not(:last-child)::after{
+    content: "/";
+    margin-left: 10px;
+}
